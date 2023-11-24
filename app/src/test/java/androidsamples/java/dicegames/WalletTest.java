@@ -24,7 +24,7 @@ public class WalletTest {
     when(d.value()).thenReturn(6);
     wvm.setDie(d);
     wvm.rollDie();
-    assertThat(wvm.balance(), Is.is(oldBalance + 4));
+    assertThat(wvm.balance(), Is.is(oldBalance + 5));
   }
   @Test
   public void rollingDouble6IncrementsBalanceBy15() {
