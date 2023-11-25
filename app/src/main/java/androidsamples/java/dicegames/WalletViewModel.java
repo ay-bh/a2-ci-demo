@@ -45,7 +45,7 @@ public class WalletViewModel extends ViewModel {
       }
     }
     else if (currVal == 6) {
-      bal += 4;
+      bal += 5;
       singleSixes++;
     }
   }
